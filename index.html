@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Votaciones de Sala – Pantallazos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--noche:#0f1e3a;--inst:#1f4e8c;--pizarra:#5a6778;--fondo:#f3f5f8;--linea:#dde2ea;--verde:#1f8a4c;--rojo:#b3261e;--amarillo:#e2b007}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Inter,system-ui,sans-serif;background:var(--fondo);color:var(--noche)}
+  header{background:var(--noche);color:#fff;padding:22px 20px 18px}
+  header h1{margin:0;font-size:22px;font-weight:700}
+  header p{margin:6px 0 0;color:#c7d2e3;font-size:13px}
+  .barra{display:flex;gap:10px;flex-wrap:wrap;padding:14px 20px;background:#fff;border-bottom:1px solid var(--linea);position:sticky;top:0;z-index:5}
+  .barra input,.barra select{font:inherit;font-size:14px;padding:8px 10px;border:1px solid var(--linea);border-radius:8px;color:var(--noche);background:#fff}
+  .barra input{flex:1;min-width:180px}
+  main{padding:10px 20px 40px;max-width:1200px;margin:0 auto}
+  h2{font-size:15px;color:var(--inst);text-transform:capitalize;margin:26px 0 10px;border-bottom:2px solid var(--inst);padding-bottom:6px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+  .card{background:#fff;border:1px solid var(--linea);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+  .card img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;cursor:zoom-in;background:var(--noche)}
+  .info{padding:12px 14px;display:flex;flex-direction:column;gap:6px;text-align:justify}
+  .materia{font-weight:600;font-size:14px;line-height:1.35}
+  .meta{font-size:12px;color:var(--pizarra)}
+  .votos{display:flex;gap:6px;flex-wrap:wrap;font-size:12px;font-weight:600}
+  .votos span{padding:3px 8px;border-radius:6px;color:#fff}
+  .f{background:var(--verde)}.c{background:var(--rojo)}.a{background:var(--amarillo);color:var(--noche)!important}
+  .res{font-size:12px;font-weight:700;color:var(--inst)}
+  .card a{font-size:12px;color:var(--inst)}
+  .vacio{color:var(--pizarra);padding:30px 0;text-align:center}
+  #visor{position:fixed;inset:0;background:rgba(15,30,58,.94);display:none;align-items:center;justify-content:center;z-index:20;padding:16px}
+  #visor img{max-width:100%;max-height:100%;border-radius:6px}
+  #visor.on{display:flex}
+</style>
+</head>
+<body>
+<header>
+  <h1>Votaciones de Sala · Cámara de Diputadas y Diputados</h1>
+  <p id="act">Cargando…</p>
+</header>
+<div class="barra">
+  <input id="q" type="search" placeholder="Buscar materia, partida, ID…">
+  <select id="fecha"><option value="">Todas las fechas</option></select>
+  <select id="res"><option value="">Todos los resultados</option><option value="aprob">Aprobadas</option><option value="rechaz">Rechazadas</option></select>
+</div>
+<main id="lista"></main>
+<div id="visor"><img alt=""></div>
+<script>
+let datos=[];
+const fmt=f=>new Date(f+'T12:00:00').toLocaleDateString('es-CL',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+function pintar(){
+  const q=document.getElementById('q').value.toLowerCase(), fe=document.getElementById('fecha').value, r=document.getElementById('res').value;
+  const l=datos.filter(v=>(!fe||v.fecha===fe)&&(!r||v.resultado.toLowerCase().includes(r))&&(!q||(v.materia+' '+v.id+' '+v.sesion).toLowerCase().includes(q)));
+  const m=document.getElementById('lista');
+  if(!l.length){m.innerHTML='<p class="vacio">No hay votaciones para este filtro.</p>';return}
+  const grupos={};l.forEach(v=>(grupos[v.fecha]=grupos[v.fecha]||[]).push(v));
+  m.innerHTML=Object.keys(grupos).sort().reverse().map(f=>`<h2>${fmt(f)}</h2><div class="grid">${grupos[f].map(v=>`
+    <div class="card"><img loading="lazy" src="${v.img}" alt="Votación ${v.id}">
+    <div class="info"><div class="materia">${v.materia}</div>
+    <div class="votos"><span class="f">${v.a_favor} a favor</span><span class="c">${v.en_contra} en contra</span><span class="a">${v.abstencion} abst.</span></div>
+    <div class="res">${v.resultado}</div>
+    <div class="meta">${v.sesion} · ID ${v.id} · ${v.hora}</div>
+    ${v.video?`<a href="${v.video}" target="_blank" rel="noopener">Ver en el video</a>`:''}</div></div>`).join('')}</div>`).join('');
+  m.querySelectorAll('.card img').forEach(i=>i.onclick=()=>{const vz=document.getElementById('visor');vz.querySelector('img').src=i.src;vz.classList.add('on')});
+}
+document.getElementById('visor').onclick=e=>e.currentTarget.classList.remove('on');
+['q','fecha','res'].forEach(id=>document.getElementById(id).addEventListener('input',pintar));
+fetch('votaciones.json',{cache:'no-store'}).then(r=>r.json()).then(j=>{
+  datos=j.votaciones||[];
+  document.getElementById('act').textContent='Actualizado: '+new Date(j.actualizado).toLocaleString('es-CL')+' · '+datos.length+' votaciones';
+  const s=document.getElementById('fecha');[...new Set(datos.map(v=>v.fecha))].sort().reverse().forEach(f=>s.insertAdjacentHTML('beforeend',`<option value="${f}">${fmt(f)}</option>`));
+  pintar();
+}).catch(()=>{document.getElementById('act').textContent='No se pudieron cargar los datos.'});
+</script>
+</body>
+</html>

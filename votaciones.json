@@ -1,0 +1,9 @@
+{
+  "actualizado": "2026-11-15T22:50:00-03:00",
+  "votaciones": [
+    {"id": "14432", "fecha": "2026-11-12", "hora": "01:44", "sesion": "Sesión Especial N°93 · Presupuesto parte 4", "materia": "Presupuesto 2027 · Partida 27 Ministerio de la Mujer y Equidad de Género", "a_favor": 58, "en_contra": 59, "abstencion": 0, "resultado": "Rechazada", "video": "https://www.youtube.com/watch?v=rT3e7HQJy_I&t=10259s", "img": "2026-11-12_14432.jpg"},
+    {"id": "191045", "fecha": "2026-11-12", "hora": "19:10", "sesion": "Sesión Especial N°93 · Presupuesto parte 3", "materia": "Presupuesto 2027 · Partida 17 Ministerio de Minería", "a_favor": 59, "en_contra": 59, "abstencion": 0, "resultado": "Rechazada (empate)", "video": "https://www.youtube.com/watch?v=LT5ucg0sw5Y&t=998s", "img": "2026-11-12_191045.jpg"},
+    {"id": "230721", "fecha": "2026-11-11", "hora": "23:07", "sesion": "Sesión N°92 · Presupuesto parte 3", "materia": "Presupuesto 2027 · Partida 13 Agricultura, Cap. 03 Prog. 01 INDAP (incluye Prodesal)", "a_favor": 49, "en_contra": 77, "abstencion": 1, "resultado": "Rechazado", "video": "https://www.youtube.com/watch?v=jdp5j09yua8&t=15317s", "img": "2026-11-11_230721.jpg"},
+    {"id": "225705", "fecha": "2026-11-11", "hora": "22:57", "sesion": "Sesión N°92 · Presupuesto parte 3", "materia": "Presupuesto 2027 · Partida 13 Ministerio de Agricultura", "a_favor": 65, "en_contra": 61, "abstencion": 0, "resultado": "Aprobada", "video": "https://www.youtube.com/watch?v=jdp5j09yua8&t=14702s", "img": "2026-11-11_225705.jpg"}
+  ]
+}
