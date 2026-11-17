@@ -1,6 +1,32 @@
 {
-  "actualizado": "2026-11-16T17:35:00-03:00",
+  "actualizado": "2026-11-17T11:20:00-03:00",
   "votaciones": [
+    {
+      "id": "91572",
+      "fecha": "2026-11-17",
+      "hora": "10:07",
+      "sesion": "Sesión N°95",
+      "materia": "Boletín 18880-07 · Solicitud de Flor Contreras para radicarlo en la Comisión de Seguridad Ciudadana (cambio de trámite, punto 8 de la Cuenta)",
+      "a_favor": 56,
+      "en_contra": 22,
+      "abstencion": 3,
+      "resultado": "Aprobado",
+      "video": "https://www.youtube.com/watch?v=ggNPWHohE5U&t=2621s",
+      "img": "2026-11-17_91572.jpg"
+    },
+    {
+      "id": "91571",
+      "fecha": "2026-11-17",
+      "hora": "10:06",
+      "sesion": "Sesión N°95",
+      "materia": "Boletín 18887-07 · Solicitud de Cristián Araya para enviarlo a Hacienda tras Constitución (cambio de trámite, punto 10 de la Cuenta)",
+      "a_favor": 48,
+      "en_contra": 28,
+      "abstencion": 3,
+      "resultado": "Aprobado",
+      "video": "https://www.youtube.com/watch?v=ggNPWHohE5U&t=2552s",
+      "img": "2026-11-17_91571.jpg"
+    },
     {
       "id": "165249",
       "fecha": "2026-11-16",
@@ -80,19 +106,6 @@
       "img": "2026-11-16_152852.jpg"
     },
     {
-      "id": "14432",
-      "fecha": "2026-11-12",
-      "hora": "01:44",
-      "sesion": "Sesión Especial N°93 · Presupuesto parte 4",
-      "materia": "Presupuesto 2027 · Partida 27 Ministerio de la Mujer y Equidad de Género",
-      "a_favor": 58,
-      "en_contra": 59,
-      "abstencion": 0,
-      "resultado": "Rechazada",
-      "video": "https://www.youtube.com/watch?v=rT3e7HQJy_I&t=10259s",
-      "img": "2026-11-12_14432.jpg"
-    },
-    {
       "id": "191045",
       "fecha": "2026-11-12",
       "hora": "19:10",
@@ -104,6 +117,19 @@
       "resultado": "Rechazada (empate)",
       "video": "https://www.youtube.com/watch?v=LT5ucg0sw5Y&t=998s",
       "img": "2026-11-12_191045.jpg"
+    },
+    {
+      "id": "14432",
+      "fecha": "2026-11-12",
+      "hora": "01:44",
+      "sesion": "Sesión Especial N°93 · Presupuesto parte 4",
+      "materia": "Presupuesto 2027 · Partida 27 Ministerio de la Mujer y Equidad de Género",
+      "a_favor": 58,
+      "en_contra": 59,
+      "abstencion": 0,
+      "resultado": "Rechazada",
+      "video": "https://www.youtube.com/watch?v=rT3e7HQJy_I&t=10259s",
+      "img": "2026-11-12_14432.jpg"
     },
     {
       "id": "230721",
