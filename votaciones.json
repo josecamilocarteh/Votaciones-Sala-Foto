@@ -1,6 +1,32 @@
 {
- "actualizado": "2026-11-18T14:45:50-03:00",
+ "actualizado": "2026-11-18T14:47:56-03:00",
  "votaciones": [
+  {
+   "id": "91618",
+   "fecha": "2026-11-18",
+   "hora": "14:46",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · votación particular numeral 2 del art. 22 (separada, solicitada por Hassler, Yeomans, Cuello, Pinilla y Venegas)",
+   "a_favor": 98,
+   "en_contra": 45,
+   "abstencion": 0,
+   "resultado": "Aprobado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=22227s",
+   "img": "2026-11-18_91618.jpg"
+  },
+  {
+   "id": "91617",
+   "fecha": "2026-11-18",
+   "hora": "14:45",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · votación particular numeral 1 del art. 22 (separada, solicitada por Hassler, Yeomans, Cuello, Pinilla y Venegas)",
+   "a_favor": 97,
+   "en_contra": 45,
+   "abstencion": 0,
+   "resultado": "Aprobado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=22178s",
+   "img": "2026-11-18_91617.jpg"
+  },
   {
    "id": "91616",
    "fecha": "2026-11-18",
