@@ -1,6 +1,32 @@
 {
- "actualizado": "2026-11-18T14:58:15-03:00",
+ "actualizado": "2026-11-18T15:00:45-03:00",
  "votaciones": [
+  {
+   "id": "91623",
+   "fecha": "2026-11-18",
+   "hora": "14:52",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · admisibilidad de indicación de Yeomans, Cuello, Pinilla, Ulloa y Venegas para reemplazar letras b) y c) del art. cuarto transitorio",
+   "a_favor": 59,
+   "en_contra": 70,
+   "abstencion": 13,
+   "resultado": "Rechazado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=22597s",
+   "img": "2026-11-18_91623.jpg"
+  },
+  {
+   "id": "91622",
+   "fecha": "2026-11-18",
+   "hora": "14:50",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · votación particular art. cuarto transitorio (separada, solicitada por Hassler, Yeomans, Cuello y otros)",
+   "a_favor": 97,
+   "en_contra": 46,
+   "abstencion": 0,
+   "resultado": "Aprobado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=22486s",
+   "img": "2026-11-18_91622.jpg"
+  },
   {
    "id": "91621",
    "fecha": "2026-11-18",
