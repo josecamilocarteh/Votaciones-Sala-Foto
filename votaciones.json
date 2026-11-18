@@ -1,6 +1,32 @@
 {
- "actualizado": "2026-11-18T14:47:56-03:00",
+ "actualizado": "2026-11-18T14:50:12-03:00",
  "votaciones": [
+  {
+   "id": "91620",
+   "fecha": "2026-11-18",
+   "hora": "14:47",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · votación particular inciso primero del art. tercero transitorio (separada, solicitada por Hassler y Cuello)",
+   "a_favor": 98,
+   "en_contra": 45,
+   "abstencion": 0,
+   "resultado": "Aprobado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=22319s",
+   "img": "2026-11-18_91620.jpg"
+  },
+  {
+   "id": "91619",
+   "fecha": "2026-11-18",
+   "hora": "14:47",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · votación particular art. tercero transitorio (salvo inciso primero; separada, solicitada por Hassler, Yeomans y otros)",
+   "a_favor": 100,
+   "en_contra": 43,
+   "abstencion": 0,
+   "resultado": "Aprobado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=22277s",
+   "img": "2026-11-18_91619.jpg"
+  },
   {
    "id": "91618",
    "fecha": "2026-11-18",
