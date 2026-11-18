@@ -1,6 +1,19 @@
 {
- "actualizado": "2026-11-18T14:42:27-03:00",
+ "actualizado": "2026-11-18T14:45:50-03:00",
  "votaciones": [
+  {
+   "id": "91616",
+   "fecha": "2026-11-18",
+   "hora": "14:44",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · admisibilidad de indicación de Yeomans, Cuello, Pinilla, Ulloa y Venegas para agregar art. 20 nuevo",
+   "a_favor": 59,
+   "en_contra": 71,
+   "abstencion": 12,
+   "resultado": "Rechazado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=22122s",
+   "img": "2026-11-18_91616.jpg"
+  },
   {
    "id": "91615",
    "fecha": "2026-11-18",
