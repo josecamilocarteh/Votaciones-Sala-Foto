@@ -1,6 +1,71 @@
 {
- "actualizado": "2026-11-18T14:35:29-03:00",
+ "actualizado": "2026-11-18T14:39:51-03:00",
  "votaciones": [
+  {
+   "id": "91612",
+   "fecha": "2026-11-18",
+   "hora": "14:37",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · votación particular art. 4 (salvo letra a; coincide con texto del Senado)",
+   "a_favor": 100,
+   "en_contra": 43,
+   "abstencion": 0,
+   "resultado": "Aprobado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=21724s",
+   "img": "2026-11-18_91612.jpg"
+  },
+  {
+   "id": "91611",
+   "fecha": "2026-11-18",
+   "hora": "14:36",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · votación particular inciso primero del art. 3 (separada, solicitada por Hassler y Cuello)",
+   "a_favor": 100,
+   "en_contra": 37,
+   "abstencion": 6,
+   "resultado": "Aprobado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=21667s",
+   "img": "2026-11-18_91611.jpg"
+  },
+  {
+   "id": "91610",
+   "fecha": "2026-11-18",
+   "hora": "14:36",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · votación particular art. 3 (salvo inciso primero; separada, solicitada por Hassler, Parra, Yeomans y otros)",
+   "a_favor": 105,
+   "en_contra": 38,
+   "abstencion": 0,
+   "resultado": "Aprobado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=21626s",
+   "img": "2026-11-18_91610.jpg"
+  },
+  {
+   "id": "91609",
+   "fecha": "2026-11-18",
+   "hora": "14:35",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · votación particular inciso tercero de la norma del numeral 4 del art. 1 (separada, solicitada por Hassler, Cuello y Venegas)",
+   "a_favor": 105,
+   "en_contra": 37,
+   "abstencion": 1,
+   "resultado": "Aprobado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=21576s",
+   "img": "2026-11-18_91609.jpg"
+  },
+  {
+   "id": "91608",
+   "fecha": "2026-11-18",
+   "hora": "14:34",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · votación particular numeral 4 del art. 1 (salvo inciso tercero; separada, solicitada por Hassler, Parra, Yeomans y otros)",
+   "a_favor": 103,
+   "en_contra": 41,
+   "abstencion": 0,
+   "resultado": "Aprobado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=21528s",
+   "img": "2026-11-18_91608.jpg"
+  },
   {
    "id": "91607",
    "fecha": "2026-11-18",
