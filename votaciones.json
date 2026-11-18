@@ -1,6 +1,45 @@
 {
- "actualizado": "2026-11-18T14:39:51-03:00",
+ "actualizado": "2026-11-18T14:42:27-03:00",
  "votaciones": [
+  {
+   "id": "91615",
+   "fecha": "2026-11-18",
+   "hora": "14:40",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · votación particular art. 13 (separada, solicitada por Hassler, Yeomans, Cuello, Pinilla y otros)",
+   "a_favor": 101,
+   "en_contra": 42,
+   "abstencion": 0,
+   "resultado": "Aprobado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=21878s",
+   "img": "2026-11-18_91615.jpg"
+  },
+  {
+   "id": "91614",
+   "fecha": "2026-11-18",
+   "hora": "14:39",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · votación particular art. 8 (separada, solicitada por Hassler, Yeomans, Cuello, Pinilla y otros)",
+   "a_favor": 102,
+   "en_contra": 42,
+   "abstencion": 0,
+   "resultado": "Aprobado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=21834s",
+   "img": "2026-11-18_91614.jpg"
+  },
+  {
+   "id": "91613",
+   "fecha": "2026-11-18",
+   "hora": "14:38",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · votación particular letra a) del art. 4 (separada, solicitada por Hassler, Yeomans y otros)",
+   "a_favor": 99,
+   "en_contra": 44,
+   "abstencion": 1,
+   "resultado": "Aprobado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=21773s",
+   "img": "2026-11-18_91613.jpg"
+  },
   {
    "id": "91612",
    "fecha": "2026-11-18",
