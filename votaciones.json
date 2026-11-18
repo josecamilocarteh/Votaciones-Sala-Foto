@@ -1,6 +1,19 @@
 {
- "actualizado": "2026-11-18T14:50:12-03:00",
+ "actualizado": "2026-11-18T14:52:42-03:00",
  "votaciones": [
+  {
+   "id": "91621",
+   "fecha": "2026-11-18",
+   "hora": "14:49",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · indicación renovada para reemplazar letras a) a d) del art. tercero transitorio (pasa a ser cuarto)",
+   "a_favor": 58,
+   "en_contra": 85,
+   "abstencion": 0,
+   "resultado": "Rechazado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=22445s",
+   "img": "2026-11-18_91621.jpg"
+  },
   {
    "id": "91620",
    "fecha": "2026-11-18",
