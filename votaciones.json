@@ -1,6 +1,45 @@
 {
- "actualizado": "2026-11-18T15:00:45-03:00",
+ "actualizado": "2026-11-18T15:04:22-03:00",
  "votaciones": [
+  {
+   "id": "91626",
+   "fecha": "2026-11-18",
+   "hora": "14:56",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · votación particular art. octavo transitorio (separada, solicitada por Hassler, Yeomans, Cuello y otros)",
+   "a_favor": 86,
+   "en_contra": 53,
+   "abstencion": 4,
+   "resultado": "Aprobado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=22818s",
+   "img": "2026-11-18_91626.jpg"
+  },
+  {
+   "id": "91625",
+   "fecha": "2026-11-18",
+   "hora": "14:55",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · votación particular incisos 1° a 4° del art. sexto transitorio (separada)",
+   "a_favor": 98,
+   "en_contra": 41,
+   "abstencion": 4,
+   "resultado": "Aprobado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=22769s",
+   "img": "2026-11-18_91625.jpg"
+  },
+  {
+   "id": "91624",
+   "fecha": "2026-11-18",
+   "hora": "14:53",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · votación particular letras b) y c) del art. cuarto transitorio, que pasa a ser quinto (separada)",
+   "a_favor": 99,
+   "en_contra": 40,
+   "abstencion": 4,
+   "resultado": "Aprobado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=22651s",
+   "img": "2026-11-18_91624.jpg"
+  },
   {
    "id": "91623",
    "fecha": "2026-11-18",
