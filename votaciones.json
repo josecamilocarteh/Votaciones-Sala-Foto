@@ -1,6 +1,58 @@
 {
- "actualizado": "2026-11-18T14:26:29-03:00",
+ "actualizado": "2026-11-18T14:35:29-03:00",
  "votaciones": [
+  {
+   "id": "91607",
+   "fecha": "2026-11-18",
+   "hora": "14:33",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · votación particular inciso sexto del numeral 2 del art. 1 (separada, solicitada por Hassler y Cuello)",
+   "a_favor": 103,
+   "en_contra": 40,
+   "abstencion": 1,
+   "resultado": "Aprobado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=21462s",
+   "img": "2026-11-18_91607.jpg"
+  },
+  {
+   "id": "91606",
+   "fecha": "2026-11-18",
+   "hora": "14:32",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · votación particular resto del numeral 2 del art. 1 (salvo inciso sexto; separada, solicitada por Hassler y Yeomans)",
+   "a_favor": 98,
+   "en_contra": 46,
+   "abstencion": 0,
+   "resultado": "Aprobado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=21414s",
+   "img": "2026-11-18_91606.jpg"
+  },
+  {
+   "id": "91605",
+   "fecha": "2026-11-18",
+   "hora": "14:31",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · votación particular inciso primero del numeral 2 del art. 1 (separada, solicitada por Hassler y Cuello)",
+   "a_favor": 97,
+   "en_contra": 47,
+   "abstencion": 0,
+   "resultado": "Aprobado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=21357s",
+   "img": "2026-11-18_91605.jpg"
+  },
+  {
+   "id": "91604",
+   "fecha": "2026-11-18",
+   "hora": "14:31",
+   "sesion": "Sesión N°96",
+   "materia": "Boletín 14782-13 · Sala cuna universal · admisibilidad de indicación de Yeomans, Cuello, Pinilla, Ulloa y Venegas (Comisión de Trabajo)",
+   "a_favor": 57,
+   "en_contra": 73,
+   "abstencion": 14,
+   "resultado": "Rechazado",
+   "video": "https://www.youtube.com/watch?v=QHHBhfOF0qo&t=21313s",
+   "img": "2026-11-18_91604.jpg"
+  },
   {
    "id": "91603",
    "fecha": "2026-11-18",
