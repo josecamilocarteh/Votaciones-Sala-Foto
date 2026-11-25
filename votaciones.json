@@ -1,6 +1,32 @@
 {
-  "actualizado": "2026-11-24T15:12:00-03:00",
+  "actualizado": "2026-11-25T12:20:00-03:00",
   "votaciones": [
+    {
+      "id": "91732",
+      "fecha": "2026-11-25",
+      "hora": "10:14",
+      "sesion": "Sesión N°99",
+      "materia": "Cambio de trámite (solicitud de cambio de comisión) · votación de procedimiento",
+      "a_favor": 51,
+      "en_contra": 16,
+      "abstencion": 10,
+      "resultado": "Aprobado",
+      "video": "https://www.youtube.com/watch?v=4hVCjV93_Bk&t=4598s",
+      "img": "2026-11-25_91732.jpg"
+    },
+    {
+      "id": "91731",
+      "fecha": "2026-11-25",
+      "hora": "10:11",
+      "sesion": "Sesión N°99",
+      "materia": "Cambio de trámite (solicitud de cambio de comisión) · votación de procedimiento",
+      "a_favor": 54,
+      "en_contra": 20,
+      "abstencion": 3,
+      "resultado": "Aprobado",
+      "video": "https://www.youtube.com/watch?v=4hVCjV93_Bk&t=4411s",
+      "img": "2026-11-25_91731.jpg"
+    },
     {
       "id": "91709",
       "fecha": "2026-11-24",
